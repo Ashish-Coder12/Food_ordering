@@ -1,5 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: var(--font-family);
+}
+
+:root {
+  --color-primary: #dcb03fcf;
+  --color-secondary: #6a7cf3dd;
+  --font-family: 'Rubik', sans-serif;
+}
+
+.mt-5 {
+  margin-top: 30px; 
+}
+.mt-3 {
+  margin-top: 15px;
 }
