@@ -4,15 +4,18 @@
 }
 
 .offer-zone {
-    width: 240px;
-    height: 70px;
-    background-color: var(--color-primary);
+    width: 90%;
+    height: 180px;
+    /* background-color: var(--color-primary); */
     color: rgb(0, 0, 0);
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
     border-radius: 17px;
     font-size: 12px;
+    position: relative;
+    overflow: hidden;
 }
 
 .offer-title {
@@ -20,8 +23,33 @@
 }
 
 .offer-container {
-    margin: 10px 0;
+    margin: 10px 0px 30px 0px;
     display: flex;
     align-items: center;
     overflow-x: auto;
+}
+.OfferImage{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    z-index: -1;
+}
+.OfferImage_Overlay{
+    background-color: rgba(0, 0, 0, 0.65);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+}
+.offertoday{
+    color: white;
+    font-size: 22px;
+    z-index: 10;
+    margin-left: 10px;
+}
+.offer-description{
+    color: rgb(224, 224, 224);
+    z-index: 10;
+    margin-left: 10px;
+    font-size: 15px;
 }
