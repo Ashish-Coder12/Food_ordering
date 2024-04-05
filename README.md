@@ -1,8 +1,8 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Food Ordering from QR For Table 
 
-Currently, two official plugins are available:
+Building a food ordering app For local shops to order food from table number by scanning qr,
+Help me to improvise this product and and if you want to sell this you can use this to sell , feel free to use this  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+if any one want to generate read me for this app please help 
+
