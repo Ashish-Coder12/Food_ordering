@@ -20,3 +20,7 @@
 .mt-3 {
   margin-top: 15px;
 }
+.flex1{
+  flex: 1;
+  overflow-y: hidden;
+}

@@ -12,7 +12,8 @@
     position: relative;
 }
 .ScrollY{
-    height: 87vh;
+    height: 86vh;
+    padding-bottom: 30px;
     overflow-y: scroll;
     -ms-overflow-style: none;  
     scrollbar-width: none; 
