@@ -10,7 +10,7 @@ function Card() {
       </div>
       <div className="prduct-name">Paneer</div>
       <div className="prduct-description">A deliious paneer made with love</div>
-      <div className="price">
+      <div className="price mt-3">
         <span className='price'>Rs: 80/-</span>
         <span><button className="add-btn">Add</button></span>
       </div>
