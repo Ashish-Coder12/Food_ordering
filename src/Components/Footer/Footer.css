@@ -4,7 +4,28 @@
     left: 0;
     width: 100%;
     height: 60px;
-    background-color: aquamarine;
+    background-color:  #a39393;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 35px;
+
+}
+
+.value {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.order {
+    background-color: var(--order-color);
+    color: white;
+    border: none;
+    padding: 7px 30px;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 21px;
 }
 
 @media(min-width: 400px) {
