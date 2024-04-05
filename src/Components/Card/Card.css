@@ -1,0 +1,40 @@
+.card{
+    /* width: 140px; */
+    width: fit-content;
+    box-shadow: 3px 0px 15px -5px rgb(80, 80, 80);
+    border-radius: 20px;
+    padding:  15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.price{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.add-btn{
+    background-color: var(--color-primary);
+    color: rgb(39, 23, 23);
+    padding: 4px 15px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.price {
+    font-size: 12px;
+}
+
+.prduct-description {
+    font-size: 10px;
+    margin: 5px 0;
+    text-align: center;
+    color: gray;
+    max-width: 100px;
+}

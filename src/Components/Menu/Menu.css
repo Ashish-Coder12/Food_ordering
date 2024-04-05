@@ -1,0 +1,29 @@
+.menu-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.Menu {
+    width: 100%;
+    padding: 0 15px;
+    padding-top: 15px;
+    position: relative;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+@media(min-width: 400px) {
+.Menu {
+    width: 400px;
+    height: 96vh;
+    margin: 2vh auto;
+    box-shadow: 3px 0px 15px -5px rgb(80, 80, 80);
+    border-radius: 10px;
+}
+}
